@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial;
+  background-image: url("/images/alDJ0e.webp");
+ }
+
+.main{
+  background-color: lightgrey;
+  border: solid;
+  border-radius: 16px;
+  border-width: 20px;
+  border-color: rgb(91, 126, 51);
+  height: 280px;
+  width: 580px;
+  margin-top: 280px;
+  margin-left: 30px;
+  padding-top: 60px;
+  padding-left: 60px;
+
+}
+
+.main-heading{
+  color: blue;
+  text-decoration:underline;
+}
+
+.main-heading{
+  margin-bottom: 20px;
+ 
+}
+
+.todo-grid,
+.todo-input-grid {
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: center;
+}
+
+.todo-input-grid {
+  margin-bottom: 10px;
+  align-items: stretch;
+}
+
+.name-input,
+.due-date-input {
+  font-size: 15px;
+  padding: 6px;
+}
+
+.add-todo-button {
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.delete-todo-button {
+  background-color: darkred;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
